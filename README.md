@@ -11,3 +11,8 @@ For the cluster mode, separate headless and nodeport services were created in or
 The pods are created using a StatefulSet since it offers predictable pod names which will be used to setup the services and kafka listeners
 
 Also included is a test kafka client in python using `confluent-kafka` library
+
+# Resources
+https://www.linkedin.com/learning/deploying-and-running-apache-kafka-on-kubernetes/multi-broker-apache-kafka-cluster-on-kubernetes-in-practice?autoSkip=true&resume=false
+
+https://www.confluent.io/blog/kafka-listeners-explained/
